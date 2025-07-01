@@ -1,0 +1,10 @@
+informações importantes do projeto cafeteria
+
+cores
+
+1E1E1E
+9D6439
+ffffff
+2A1D17
+
+font: inter
