@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background-color: black;
+}
+
+.banner-header{
+    background-image:url(../assets/fundo-cafe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo-header img{
+    width: 80px;
+}
