@@ -2,18 +2,100 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
  
 }
 body{
     background-color: black;
+    color: white;
 }
 
 .banner-header{
-    background-image:url(../assets/fundo-cafe.png);
+    background-image:url(../assets/fundo-cafe2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    min-height: 100vh;
     
 }
+
 .logo-header img{
-    width: 80px;
+    width: 64px;
+}
+.logo-header{
+    width: 160;
+    height: 107;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-header p{
+    font-family: "Lexend Deca", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo-header p{
+    color: white;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul li{
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 20px;
+    letter-spacing: 1px; 
+}
+header ul li a:hover{
+    border-bottom: 2px solid #9D6439;
+    opacity: 0.8;
+}
+span{
+    border-bottom: 2px solid #9D6439;
+}
+
+.container-texto-imagem{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    padding-left: 30px;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    gap: 30px;
+}
+
+.container-banner-texto h1{
+    font-family: "Inter", sans-serif;
+    font-size: 89px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.container-banner-texto p{
+    color: #9D6439;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+.container-imagens .imagem-chocolate{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.imagem-cafe img{
+    width: 400px;
+}
+.imagem-chocolate img{
+    width: 400px;
 }
