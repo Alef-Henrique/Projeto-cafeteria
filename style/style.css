@@ -315,6 +315,12 @@ span{
     font-style: italic;
 
 }
+.section-recursos{
+    height: 100%;
+    display: flex;
+    gap: 150px;
+    flex-direction: column;
+}
 
 .cardapio-menu img{
     width: 200px;
@@ -326,4 +332,64 @@ span{
     font-weight: 200;
 
 }
+.container-texto-recurson{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    width: 600px;
+}
+.container-texto-recurson h2{
+    color: #9D6439;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+.container-texto-recurson h1{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    
+}
+.container-recursos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+.container-recursos div{
+    width: 300px;
+    background-color: #2A1D17;
+    padding: 20px;
+    border-radius: 15px;
+}
+.container-recursos img{
+    width: 80px;
+}
+.container-recursos h2{
+    padding: 10px 0;
+    font-family: "Inter", sans-serif;
+    font-style: italic;   
+}
+.container-recursos p{
+    font-weight: 200;
+    font-family: "Inter", sans-serif;
+    font-style: italic;  
+}
 
+.cadastro img{
+    width: 300px;
+
+}
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    grid-template-areas: 
+    "nome"
+    "cpf nascimento" 
+    
+    ;
+}
