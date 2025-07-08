@@ -384,12 +384,14 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 }
 
-form{
-    grid-template-areas: 
-    "nome"
-    "cpf nascimento" 
-    
-    ;
+ .nome input{
+    width: 100%;
+}
+
+.botao-cadastro{
+    text-align: center;
+    width: 100%;
 }
