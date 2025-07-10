@@ -16,6 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
     height: 100vh;
 }
 main{
@@ -286,6 +287,7 @@ span{
     font-style: italic;
     color: #9D6439;
     margin-bottom: 50px;
+    
 }
 .section-menu{
     display: flex;
@@ -313,6 +315,7 @@ span{
     color: white;
     font-family: "Inter", sans-serif;
     font-style: italic;
+    line-height: 30px;
 
 }
 .section-recursos{
@@ -376,15 +379,43 @@ span{
     font-style: italic;  
 }
 
-.cadastro img{
-    width: 300px;
+.bloco-cadastro img{
+    width: 400px;
+    height: 450px;
+    border-radius: 15px;
 
 }
-.cadastro{
+.section-cadastro{
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    flex-direction: column;
+}
+.xicara-cafe{
+    position: relative;
+    top: 60px;
+}
+.bloco-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #2A1D17;
+    width: 70%;
+    margin: 0 auto;
+}
+input{
+    padding: 12px;
+    margin: 15px 0; 
+    outline: none;
+    border-radius: 12px;
+    border: none;
+    background-color:#9d643948;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+form{
+    margin: 15px;
 }
 
  .nome input{
@@ -394,4 +425,26 @@ span{
 .botao-cadastro{
     text-align: center;
     width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #9D6439;
+    border: none;
+    border-radius: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+    cursor: pointer;
 }
+.bloco-cadastro h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;  
+    color: #9D6439;
+}
+.botao-cadastro:hover{
+    opacity: 0.8;
+}
+
