@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 
- 
 }
 body{
     background-color: black;
@@ -293,12 +292,14 @@ span{
     display: flex;
     justify-content: center; 
     align-items: center;   
-    background-color:#2A1D17;  
+    background-color:#2A1D17;
+    max-width: 1200px;  
     border-radius: 15px;
+    margin: 0 auto;
 }
 .container-menu{
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 450px 450px;
     gap: 20px;
     margin: 50px 0;
 }
@@ -306,7 +307,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
 
 }
 .texto-cardapio{
@@ -316,7 +317,7 @@ span{
     font-family: "Inter", sans-serif;
     font-style: italic;
     line-height: 30px;
-
+    width: 300px;
 }
 .section-recursos{
     height: 100%;
@@ -326,13 +327,18 @@ span{
 }
 
 .cardapio-menu img{
-    width: 200px;
+    width: 250px;
     height: 250px;
     border-radius: 10px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.8)
 }
+.texto-cardapio h3{
+    margin-top: 20px;
+    color: #9D6439;
+}
 .texto-cardapio p{
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 14px;
 
 }
 .container-texto-recurson{
@@ -386,10 +392,12 @@ span{
 
 }
 .section-cadastro{
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 100px;
+    
 }
 .xicara-cafe{
     position: relative;
@@ -447,4 +455,55 @@ form{
 .botao-cadastro:hover{
     opacity: 0.8;
 }
+.logo-footer{
+    width: 80px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9D6439;
+    align-items: center;
+    height: 320px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    text-transform:none;
+    
+}
+footer img{
+    width: 100px;
+}
+div li{
+    padding: 0;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 26px;
+    
+}
+.links-header {
+    display: flex;
+    flex-direction: column;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    
+}
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
 
+footer ul{
+    margin-top: 15px;
+}
+
+footer h2{
+    font-size: 20px;
+
+
+}
