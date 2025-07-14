@@ -341,23 +341,30 @@ span{
     font-size: 14px;
 
 }
-.container-texto-recurson{
+.container-texto-recursos{
     display: flex;
     margin: 0 auto;
     text-align: center;
     margin-top: 150px;
     width: 600px;
 }
-.container-texto-recurson h2{
+.container-texto-recursos h2{
     color: #9D6439;
     font-size: 24px;
     font-family: "Inter", sans-serif;
 }
-.container-texto-recurson h1{
+.container-texto-recursos h1{
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-style: italic;
     
+}
+.container-texto-recursos p{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 18px;
 }
 .container-recursos{
     display: flex;
@@ -428,6 +435,7 @@ form{
 
  .nome input{
     width: 100%;
+    
 }
 
 .botao-cadastro{
@@ -505,5 +513,5 @@ footer ul{
 footer h2{
     font-size: 20px;
 
-
 }
+
