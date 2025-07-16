@@ -7,6 +7,7 @@
 body{
     background-color: black;
     color: white;
+
     
 }
 
@@ -15,7 +16,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    max-width: 1400px;
+    max-height: 800px;
+    margin: 0 auto;   
     height: 100vh;
 }
 main{
@@ -34,12 +37,15 @@ main{
 }
 .logo-header p{
     font-family: "Lexend Deca", sans-serif;
+    font-style: italic;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin:0 auto;
+    max-width: 1400px;
     z-index: 2;
 
 }
@@ -74,12 +80,15 @@ span{
 .container-texto-imagem{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-bottom: 240px;
-    gap: 50px;
+    gap: 200px;
     padding-left: 30px;
-    width: 100vw;
     height: 100%;
     position: absolute;
+    margin:0 auto;
+    max-width: 1400px;
+    max-height: 800px;
     
 }
 
@@ -133,6 +142,9 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
     
 }
 .container-bem-vindo img{
@@ -163,6 +175,8 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .texto-sobre{
     width: 600px;
@@ -212,7 +226,8 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 200px 0;
+    margin: 200px auto;
+    max-width: 1400px;
 }
 
 .card1, .card2, .card3{
@@ -324,6 +339,8 @@ span{
     display: flex;
     gap: 150px;
     flex-direction: column;
+    margin:0 auto;
+    max-width: 1400px;
 }
 
 .cardapio-menu img{
@@ -418,6 +435,7 @@ span{
     background-color: #2A1D17;
     width: 70%;
     margin: 0 auto;
+    max-width: 1000px;
 }
 input{
     padding: 12px;
@@ -476,7 +494,15 @@ footer{
     font-style: italic;
     font-weight: 300;
     text-transform:none;
-    
+
+   
+}
+.container-footer{
+    margin:0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+   
 }
 footer img{
     width: 100px;
@@ -492,7 +518,7 @@ div li{
     display: flex;
     flex-direction: column;
 }
-footer div{
+.container-footer div{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -512,6 +538,43 @@ footer ul{
 
 footer h2{
     font-size: 20px;
+
+}
+@media (min-width:768px) and (max-width:1380px) {
+    header ul li{
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .container-texto-imagem{
+        gap: 10px;
+        padding-left: 20px;
+    }
+    .container-texto-imagem h1{
+        font-size: 60px;
+    }
+    .container-banner-texto p, .botao-banner{
+        font-size: 25px;
+    }
+    .imagem-chocolate{
+        top:0;
+    }
+    .container-bem-vindo img{
+        width: 150px;
+        margin-top: 30px;
+    }
+    .texto-bem-vindo{
+        top: -50px;
+        font-size: 16px;
+        width: 600px;
+    }
+    .container-sobre{
+        display: flex;
+        flex-direction: column;
+    }
+    .produto img{
+        width: 500px;
+
+    }
 
 }
 
