@@ -10,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <title>Gourmet Coffe</title>
 </head>
 
@@ -22,7 +24,7 @@
                 <p>Gourmet Coffe</p>
             </div>
 
-            <nav>
+            <nav class="link-links">
 
                 <ul>
                     <li><a href="#"><span>Home</span></a></li>
@@ -34,10 +36,24 @@
 
             </nav>
 
-
-            <div>
-
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
             </div>
+            <div class="menu-mobile" id="btn-menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav class="nav-mob">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#receitas">Receitas</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
 
         </header>
 
@@ -113,6 +129,7 @@
         </article>
 
         <section class="container-servisos">
+            
 
             <div class="card1">
                 <div class="fundo"></div>
@@ -146,6 +163,7 @@
 
         <section class="section-menu">
             <div class="container-menu">
+
                 <div class="cardapio-menu">
                     <img src="assets/café preto na cafeteria.jpg" alt="foto-café-expresso">
                     <div class="texto-cardapio">
@@ -232,8 +250,8 @@
         <section class="section-recursos">
             <article class="container-texto-recursos">
                 <div>
-                    <h2>Nossos Recursos</h2>
-                    <h1>Tudo Para Seu Conforto e Bem-Estar.</h1>
+                    <h1>Nossos Recursos</h1>
+                    <h2>Tudo Para Seu Conforto e Bem-Estar.</h2>
                     <p>No Gourmet Coffee, cuidamos de cada detalhe para oferecer uma experiência completa e memorável.
                         Contamos com um ambiente aconchegante, Wi-Fi gratuito, atendimento acolhedor e uma seleção
                         especial de cafés preparados com grãos de alta qualidade.</p>
@@ -266,6 +284,7 @@
 
             </div>
         </section>
+
         <section class="section-cadastro">
             <img class="xicara-cafe" src="assets/xicara-cafe.png" alt="xicara de cafe">
             <div class="bloco-cadastro">
@@ -327,7 +346,7 @@
                 </ul>
             </div>
             <div class="container-imagens">
-                <h2>Galeria</h2>
+                <h2 class="fotos">Galeria</h2>
                 <ul class="grade-imagens">
                     <li><img src="assets/amigos-tomando-cafe-juntos.jpg" alt="foto-tomando-cafe-com-amigos"></li>
                     <li><img src="assets/café com bolo.jpg" alt="foto-tomando-cafe-com-bolo"></li>
@@ -342,5 +361,8 @@
     </footer>
 
 </body>
+<script src="menu.js"></script>
+
+
 
 </html>
