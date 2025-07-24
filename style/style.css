@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
 }
 
@@ -881,17 +882,17 @@ footer h2 {
 
     .imagem-chocolate {
         position: relative;
-        top: 20px;
+        top: 5px;
 
     }
 
     .imagem-cafe {
         position: relative;
-        top: -80px;
+        top: -100px;
     }
 
     .container-texto-imagem {
-        padding-bottom: 20px;
+
         display: flex;
         text-align: center;
         gap: 0;
@@ -905,6 +906,7 @@ footer h2 {
 
     .container-banner-texto h1 {
         font-size: 45px;
+        padding-bottom: 40px;
     }
 
     .container-banner-texto p {
@@ -1038,6 +1040,11 @@ footer h2 {
     .bloco-cadastro img {
         display: none;
 
+    }
+    form{
+        
+        margin: 20px auto;
+        padding: 10px;
     }
 
     .bloco-cadastro,
